@@ -79,3 +79,12 @@ footer p {
 #about-section a:hover {
     text-decoration: underline; /* Underline links on hover */
 }
+
+#certifications a {
+    color: #b3ffb3; /* Light green text color for links within About section */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#certifications a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
