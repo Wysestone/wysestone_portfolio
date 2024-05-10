@@ -133,3 +133,11 @@ footer p {
 .center-section ul li a:hover {
     text-decoration: underline;
 }
+
+/* Certification and contact page styles */
+.certification-content,
+.contact-content {
+    max-width: 600px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+}
+
