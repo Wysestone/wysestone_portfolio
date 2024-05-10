@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education - The Wyse Guy</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lib/css/styles.css">
 </head>
 
 <body>
@@ -17,30 +17,61 @@
             <a href="certifications.html">Certifications</a>
             <a href="work.html">Work Experience</a>
             <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    <section class="center-section">
-        <h2>Education</h2>
-        <ul>
-            <li>BS Cybersecurity and Information Assurance - WGU (2023)</li>
-            <li>BS Network and Cyber Security - ECPI (2016)</li>
-            <li>AAS Computer Network Systems - ITT Tech (2012)</li>
-            <li>Hands-on Training:
-                <ul>
-                    <li><a href="https://tryhackme.com/p/Wysestone">TryHackMe Profile</a></li>
-                    <li><a href="https://app.pluralsight.com/profile/awyseguy">Pluralsight Profile</a></li>
-                </ul>
-            </li>
-        </ul>
+    <section id="education-section">
+        <h2 class="section-heading">Education</h2>
+
+        <table class="education-table">
+            <tr>
+                <th>Degree / Certification</th>
+                <th>School / Platform</th>
+                <th>Completion Date</th>
+            </tr>
+            <tr>
+                <td>Bachelor of Science in Cybersecurity and Information Assurance</td>
+                <td>Western Governors University (WGU)</td>
+                <td>11/2023</td>
+            </tr>
+            <tr>
+                <td>Bachelor of Science in Computer & Information Science (Concentration in Cyber and Network Security)</td>
+                <td>ECPI University, Columbia, SC</td>
+                <td>8/2016</td>
+            </tr>
+            <tr>
+                <td>Associate Degree in Computer Networking Systems (CNS)</td>
+                <td>ITT Tech, Columbia, SC</td>
+                <td>3/2013</td>
+            </tr>
+        </table>
+
+        <h3 class="section-heading">Continuing Education</h3>
+
+        <div class="center-section">
+            <table class="education-table">
+                <tr>
+                    <th>Platform</th>
+                    <th>Profile</th>
+                </tr>
+                <tr>
+                    <td>Pluralsight</td>
+                    <td><a href="https://app.pluralsight.com/profile/wysestone">Profile</a></td>
+                </tr>
+                <tr>
+                    <td>TryHackMe</td>
+                    <td><a href="https://tryhackme.com/p/Wysestone">Profile</a></td>
+                </tr>
+            </table>
+        </div>
     </section>
 
     <footer>
         <p>&copy; 2024 The Wyse Guy | Website assistance by ChatGPT</p>
     </footer>
 
-    <!-- <script src="script.js"></script> -->
 </body>
 
 </html>

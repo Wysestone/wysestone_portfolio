@@ -1,0 +1,262 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    background-color: #222; /* Dark background */
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text */
+    margin: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333; /* Slightly lighter gray header background */
+    color: #fff; /* White header text */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+    padding: 10px; /* Add padding to the navigation bar */
+}
+
+nav a {
+    color: #b3ffb3; /* Light green text color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 10px; /* Add spacing between links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #fff; /* White heading text */
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    color: #ccc; /* Light gray footer text */
+}
+
+/* About page styles */
+.about-paragraph {
+    max-width: 600px; /* Limit paragraph width */
+    margin: 0 auto; /* Center paragraphs */
+}
+
+#about-section a {
+    color: #b3ffb3; /* Light green text color for links within About section */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#about-section a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+#certifications a {
+    color: #b3ffb3; /* Light green text color for links within About section */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#certifications a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Work table styles */
+.work-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.work-table th, .work-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.work-table th {
+    background-color: #333; /* Darker background color for the table header */
+    color: #fff; /* White text color for the table header */
+}
+
+/* Center-section styles */
+.center-section {
+    text-align: center;
+}
+
+.center-section h2 {
+    margin-bottom: 20px;
+    color: #fff; /* Set heading text color */
+}
+
+.center-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.center-section ul li {
+    margin-bottom: 10px;
+}
+
+.center-section ul li a {
+    color: #b3ffb3; /* Set link text color */
+    text-decoration: none;
+}
+
+.center-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Certification and contact page styles */
+.certification-content,
+.contact-content {
+    max-width: 600px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+/* Additional CSS for skills page */
+#skills-section {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-column {
+    flex: 1;
+    margin: 0 10px;
+    max-width: 400px; /* Adjust the width as needed */
+}
+
+.skills-category {
+    margin-bottom: 20px;
+}
+
+.skills-category h3 {
+    color: #fff; /* Set heading text color */
+    margin-bottom: 10px;
+}
+
+.skills-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-category ul li {
+    margin-bottom: 10px;
+}
+
+.skills-category ul li a {
+    color: #b3ffb3; /* Set link text color */
+    text-decoration: none;
+}
+
+.skills-category ul li a:hover {
+    text-decoration: underline;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 20px; /* Add some spacing below the heading */
+}
+
+.category-heading {
+    text-align: center;
+    margin-top: 20px; /* Add some spacing above the heading */
+}
+
+/* Add this to your styles.css file */
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.skills-table th,
+.skills-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.skills-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Education table styles */
+.education-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.education-table th,
+.education-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.education-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.certifications-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .certifications-table th,
+        .certifications-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .certifications-table th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .certifications-table td:nth-child(3) {
+            text-align: center;
+        }
+
+        .certifications-table a {
+            color: #b3ffb3;
+            text-decoration: none;
+        }
+
+        .certifications-table a:hover {
+            text-decoration: underline;
+        }
