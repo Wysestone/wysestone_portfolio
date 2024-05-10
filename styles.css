@@ -88,3 +88,19 @@ footer p {
 #certifications a:hover {
     text-decoration: underline; /* Underline links on hover */
 }
+
+/* Work page styles */
+.work-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.work-table th, .work-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.work-table th {
+    background-color: #f2f2f2;
+}
