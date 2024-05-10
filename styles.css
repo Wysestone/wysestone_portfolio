@@ -46,7 +46,6 @@ section {
 h2 {
     color: #fff; /* White heading text */
     margin-bottom: 10px;
-    margin: 0 auto; /* Center h2 headers */
 }
 
 ul {
@@ -55,8 +54,6 @@ ul {
 
 ul li {
     margin-bottom: 10px;
-    color: #b3ffb3; /* Light green text color for ul li */
-    text-decoration: none; /* Remove underline from links */
 }
 
 footer {
@@ -72,4 +69,13 @@ footer p {
 .about-paragraph {
     max-width: 600px; /* Limit paragraph width */
     margin: 0 auto; /* Center paragraphs */
+}
+
+#about-section a {
+    color: #b3ffb3; /* Light green text color for links within About section */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#about-section a:hover {
+    text-decoration: underline; /* Underline links on hover */
 }
