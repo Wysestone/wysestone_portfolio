@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    background-color: #222; /* Dark background */
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text */
+    margin: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333; /* Slightly lighter gray header background */
+    color: #fff; /* White header text */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #fff; /* White navigation links */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #fff; /* White heading text */
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    color: #ccc; /* Light gray footer text */
+}
