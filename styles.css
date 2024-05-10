@@ -46,6 +46,7 @@ section {
 h2 {
     color: #fff; /* White heading text */
     margin-bottom: 10px;
+    margin: 0 auto; /* Center h2 headers */
 }
 
 ul {
@@ -54,6 +55,8 @@ ul {
 
 ul li {
     margin-bottom: 10px;
+    color: #b3ffb3; /* Light green text color for ul li */
+    text-decoration: none; /* Remove underline from links */
 }
 
 footer {
