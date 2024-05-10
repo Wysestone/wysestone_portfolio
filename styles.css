@@ -62,3 +62,19 @@ footer {
 footer p {
     color: #ccc; /* Light gray footer text */
 }
+
+/* Navigation styles */
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+    padding: 10px; /* Add padding to the navigation bar */
+}
+
+nav a {
+    color: #fff; /* Text color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 10px; /* Add spacing between links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
