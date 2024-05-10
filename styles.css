@@ -70,7 +70,7 @@ nav {
 }
 
 nav a {
-    color: #fff; /* Text color for navigation links */
+    color: #b3ffb3; /* Light green text color for navigation links */
     text-decoration: none; /* Remove underline from links */
     margin-right: 10px; /* Add spacing between links */
 }
