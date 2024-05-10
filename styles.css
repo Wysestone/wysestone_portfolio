@@ -113,6 +113,7 @@ footer p {
 
 .center-section h2 {
     margin-bottom: 20px;
+    color: #fff; /* Set heading text color */
 }
 
 .center-section ul {
@@ -122,4 +123,13 @@ footer p {
 
 .center-section ul li {
     margin-bottom: 10px;
+}
+
+.center-section ul li a {
+    color: #b3ffb3; /* Set link text color */
+    text-decoration: none;
+}
+
+.center-section ul li a:hover {
+    text-decoration: underline;
 }
