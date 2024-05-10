@@ -6,16 +6,16 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, table, th, td {
 
 /* Basic styling */
 body {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Light gray background */
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #333333; /* Dark gray text */
     margin: 20px;
     line-height: 1.6;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #333333; /* Dark gray header background */
+    color: #fff; /* White header text */
     padding: 20px;
 }
 
@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #fff; /* White navigation links */
     text-decoration: none;
     margin-right: 20px;
 }
@@ -42,7 +42,7 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: #333333; /* Dark gray heading */
     margin-bottom: 10px;
 }
 
@@ -60,7 +60,7 @@ footer {
 }
 
 footer p {
-    color: #666;
+    color: #666666; /* Gray footer text */
 }
 
 /* Animations */
@@ -112,10 +112,10 @@ section ul {
 }
 
 section ul li a {
-    color: #007bff; /* Change color to blue */
-    font-size: 16px; /* Change font size to 16 pixels */
+    color: #007bff; /* Blue certification links */
+    font-size: 16px;
 }
 
 section ul li a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline;
 }
