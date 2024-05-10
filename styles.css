@@ -105,3 +105,17 @@ footer p {
         transform: scale(1);
     }
 }
+
+/* Additional styling for certification links */
+section ul {
+    padding-left: 20px; /* Add left padding for better alignment */
+}
+
+section ul li a {
+    color: #007bff; /* Change color to blue */
+    font-size: 16px; /* Change font size to 16 pixels */
+}
+
+section ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
