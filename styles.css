@@ -6,16 +6,16 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, table, th, td {
 
 /* Basic styling */
 body {
-    background-color: #222222; /* Dark gray background */
+    background-color: #f0f0f0; /* Light gray background */
     font-family: Arial, sans-serif;
-    color: #ffffff; /* White text */
+    color: #333333; /* Dark gray text */
     margin: 20px;
     line-height: 1.6;
 }
 
 header {
-    background-color: #333333; /* Slightly lighter gray header background */
-    color: #fff; /* White header text */
+    background-color: #cccccc; /* Light gray header background */
+    color: #333333; /* Dark gray header text */
     padding: 20px;
 }
 
@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-    color: #fff; /* White navigation links */
+    color: #333333; /* Dark gray navigation links */
     text-decoration: none;
     margin-right: 20px;
 }
@@ -42,7 +42,7 @@ section {
 }
 
 h2 {
-    color: #ffffff; /* White heading text */
+    color: #333333; /* Dark gray heading text */
     margin-bottom: 10px;
 }
 
@@ -60,7 +60,7 @@ footer {
 }
 
 footer p {
-    color: #cccccc; /* Light gray footer text */
+    color: #666666; /* Gray footer text */
 }
 
 /* Animations */
