@@ -78,3 +78,9 @@ nav a {
 nav a:hover {
     text-decoration: underline; /* Underline links on hover */
 }
+
+/* About page styles */
+.about-paragraph {
+    max-width: 600px; /* Limit paragraph width */
+    margin: 0 auto; /* Center paragraphs */
+}
