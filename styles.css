@@ -101,6 +101,24 @@ footer p {
     text-align: left;
 }
 
+/* Center-section styles */
+.center-section {
+    text-align: center;
+}
+
+.center-section h2 {
+    margin-bottom: 20px;
+}
+
+.center-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.center-section ul li {
+    margin-bottom: 10px;
+}
+
 .work-table th {
     background-color: #f2f2f2;
 }
