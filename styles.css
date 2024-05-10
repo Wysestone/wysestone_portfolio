@@ -6,15 +6,15 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, table, th, td {
 
 /* Basic styling */
 body {
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #222222; /* Dark gray background */
     font-family: Arial, sans-serif;
-    color: #333333; /* Dark gray text */
+    color: #ffffff; /* White text */
     margin: 20px;
     line-height: 1.6;
 }
 
 header {
-    background-color: #333333; /* Dark gray header background */
+    background-color: #333333; /* Slightly lighter gray header background */
     color: #fff; /* White header text */
     padding: 20px;
 }
@@ -42,7 +42,7 @@ section {
 }
 
 h2 {
-    color: #333333; /* Dark gray heading */
+    color: #ffffff; /* White heading text */
     margin-bottom: 10px;
 }
 
@@ -60,7 +60,7 @@ footer {
 }
 
 footer p {
-    color: #666666; /* Gray footer text */
+    color: #cccccc; /* Light gray footer text */
 }
 
 /* Animations */
