@@ -1,154 +1,226 @@
-/* Reset some default styles */
-body, h1, h2, h3, h4, h5, h6, p, ul, li, table, th, td {
-    margin: 0;
-    padding: 0;
-}
-
-/* Basic styling */
+/* Global Styles */
 body {
-    background-color: #222; /* Dark background */
     font-family: Arial, sans-serif;
-    color: #fff; /* White text */
-    margin: 20px;
     line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333; /* Slightly lighter gray header background */
-    color: #fff; /* White header text */
-    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
 }
 
 header h1 {
-    font-size: 2em;
+    margin: 0;
 }
 
-/* Navigation styles */
 nav {
-    background-color: #333; /* Background color for the navigation bar */
-    padding: 10px; /* Add padding to the navigation bar */
+    margin-top: 1rem;
 }
 
 nav a {
-    color: #b3ffb3; /* Light green text color for navigation links */
-    text-decoration: none; /* Remove underline from links */
-    margin-right: 10px; /* Add spacing between links */
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    text-decoration: underline; /* Underline links on hover */
+    background-color: #555;
 }
 
-section {
-    margin-bottom: 40px;
+main {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 h2 {
-    color: #fff; /* White heading text */
-    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
 }
 
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    margin-bottom: 10px;
+h3 {
+    color: #444;
 }
 
 footer {
-    margin-top: 40px;
     text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #333;
+    color: #fff;
 }
 
-footer p {
-    color: #ccc; /* Light gray footer text */
+/* Education Styles */
+.education-container {
+    display: grid;
+    gap: 2rem;
 }
 
-/* About page styles */
-.about-paragraph {
-    max-width: 600px; /* Limit paragraph width */
-    margin: 0 auto; /* Center paragraphs */
-}
-
-#about-section a {
-    color: #b3ffb3; /* Light green text color for links within About section */
-    text-decoration: none; /* Remove underline from links */
-}
-
-#about-section a:hover {
-    text-decoration: underline; /* Underline links on hover */
-}
-
-#certifications a {
-    color: #b3ffb3; /* Light green text color for links within About section */
-    text-decoration: none; /* Remove underline from links */
-}
-
-#certifications a:hover {
-    text-decoration: underline; /* Underline links on hover */
-}
-
-#certificates a {
-    color: #b3ffb3; /* Light green text color for links within About section */
-    text-decoration: none; /* Remove underline from links */
-}
-
-#certificates a:hover {
-    text-decoration: underline; /* Underline links on hover */
-}
-
-/* Work table styles */
-.work-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.work-table th, .work-table td {
+.education-entry {
+    background: #fff;
     border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+    border-radius: 4px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s ease;
 }
 
-.work-table th {
-    background-color: #333; /* Darker background color for the table header */
-    color: #fff; /* White text color for the table header */
+.education-entry:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Center-section styles */
-.center-section {
-    text-align: center;
+.education-entry h3 {
+    margin-top: 0;
 }
 
-.center-section h2 {
-    margin-bottom: 20px;
-    color: #fff; /* Set heading text color */
+.institution, .completion-date {
+    margin: 0.5rem 0;
 }
 
-.center-section ul {
-    list-style-type: none;
-    padding: 0;
+/* Skills Styles */
+.skills-container {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1rem;
 }
 
-.center-section ul li {
-    margin-bottom: 10px;
+.skill {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
 }
 
-.center-section ul li a {
-    color: #b3ffb3; /* Set link text color */
+.skill:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.skill h4 {
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.skill-description {
+    margin: 0;
+    color: #666;
+}
+
+/* Work Experience Styles */
+.experience-container {
+    display: grid;
+    gap: 2rem;
+}
+
+.job {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.job:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.job h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.job .company {
+    color: #666;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.job .period {
+    color: #888;
+    font-style: italic;
+    margin: 0.5rem 0;
+}
+
+.responsibilities {
+    margin-top: 1rem;
+}
+
+.responsibilities h4 {
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+
+.responsibilities ul {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.responsibilities li {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+/* Certifications Styles */
+.certifications-container {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.certification {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.certification:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.certification h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.issuer, .date {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.verification a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
     text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
-.center-section ul li a:hover {
-    text-decoration: underline;
+.verification a:hover {
+    background-color: #0056b3;
 }
 
-/* Certification and contact page styles */
-.certification-content,
-.certificate-content,
-.contact-content {
-    max-width: 600px; /* Limit content width */
-    margin: 0 auto; /* Center content horizontally */
-
+/* Responsive Design */
+@media (min-width: 768px) {
+    .education-container,
+    .skills-container,
+    .experience-container,
+    .certifications-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }
-
