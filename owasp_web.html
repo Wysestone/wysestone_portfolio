@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Easy Web Security Testing Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #343a40;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      background: white;
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🛡️ Easy Web Security Testing Guide (OWASP)</h1>
+    <p>Made simple for everyone</p>
+  </header>
+  <main>
+    <section>
+      <h2>🔍 What is This?</h2>
+      <p>This is a friendly version of the OWASP Web Security Testing Guide. It helps people test if websites are secure in simple steps.</p>
+    </section>
+
+    <section>
+      <h2>🔑 Login Checks (Authentication)</h2>
+      <ul>
+        <li>Try logging in with the wrong password. ✅ It should block you.<br><strong>Example:</strong> Use "admin" as the username and "1234" as the password.</li>
+        <li>Try logging in many times quickly. ✅ It should lock you out.<br><strong>Example:</strong> Enter a wrong password 10 times in a row.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛂 Permission Checks (Authorization)</h2>
+      <ul>
+        <li>Check if a regular user can view admin pages. ❌ They shouldn’t.<br><strong>Example:</strong> Go to <code>/admin</code> or change a URL like <code>/user/123</code> to <code>/user/1</code>.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🧮 Data Checks (Input Validation)</h2>
+      <ul>
+        <li>Try adding weird code (like <code>&lt;script&gt;</code>) to forms. ✅ It should be blocked.<br><strong>Example:</strong> Enter <code>&lt;script&gt;alert('test')&lt;/script&gt;</code> in a search box or contact form.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🧾 Session Safety</h2>
+      <ul>
+        <li>Log out and try using the browser again. ❌ You shouldn’t still be logged in.<br><strong>Example:</strong> Click "Logout" then hit the back button or try refreshing the page.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>❗ Error Messages</h2>
+      <ul>
+        <li>Cause errors and see if they give away too much info (like system details). ❌ They shouldn’t.<br><strong>Example:</strong> Visit a broken link like <code>/notarealpage</code> and look for debug info or system paths.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🔒 HTTPS Check</h2>
+      <ul>
+        <li>Look at the URL. ✅ It should start with <code>https://</code> and show a lock icon.<br><strong>Example:</strong> Visit the login or payment page and check the address bar.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>✅ Login Testing Example</h2>
+      <table>
+        <thead>
+          <tr><th>Step</th><th>Action</th><th>Check</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Visit login page</td><td>Is it secure (HTTPS)?</td></tr>
+          <tr><td>2</td><td>Use wrong password</td><td>Does it block you?</td></tr>
+          <tr><td>3</td><td>Try logging in fast repeatedly</td><td>Does it lock you out?</td></tr>
+          <tr><td>4</td><td>Read error message</td><td>Is it vague (no hints)?</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>🧰 Helpful Tools</h2>
+      <ul>
+        <li><strong>OWASP ZAP:</strong> Tool to test websites</li>
+        <li><strong>Browser Dev Tools:</strong> Press F12 in your browser</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📘 Tips for Easier Learning</h2>
+      <ul>
+        <li>Use checklists</li>
+        <li>Break tasks into small steps</li>
+        <li>Ask someone to guide you</li>
+        <li>Practice on safe test sites</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Made with ❤️ using OWASP WSTG v4.2 | <a href="https://owasp.org/www-project-web-security-testing-guide/" target="_blank">Learn more</a></p>
+  </footer>
+</body>
+</html>
