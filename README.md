@@ -185,7 +185,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details
 Contact
 
-Anthony Wyse - [LinkedIn Profile]
+Anthony Wyse - [LinkedIn Profile](https://www.linkedin.com/in/anthonywyse/)
 Project Link: [GitHub Repository]
 Acknowledgments
 
